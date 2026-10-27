@@ -8,7 +8,6 @@ const PORT = 3000;
 app.use(cors());
 app.use(express.json());
 
-// Data sepeda motor sementara
 let dataMotor = [
   {
     id: 1,
@@ -36,6 +35,69 @@ let dataMotor = [
     warna: "Silver",
     harga: 19000000,
     cc: 110,
+  },
+  {
+    id: 4,
+    merk: "Yamaha",
+    nama: "Aerox 155",
+    tahun: 2024,
+    warna: "Merah",
+    harga: 29000000,
+    cc: 155,
+  },
+  {
+    id: 5,
+    merk: "Honda",
+    nama: "PCX 160",
+    tahun: 2024,
+    warna: "Putih",
+    harga: 33000000,
+    cc: 160,
+  },
+  {
+    id: 6,
+    merk: "Yamaha",
+    nama: "Mio M3",
+    tahun: 2023,
+    warna: "Hitam",
+    harga: 18000000,
+    cc: 125,
+  },
+  {
+    id: 7,
+    merk: "Honda",
+    nama: "Vario 125",
+    tahun: 2023,
+    warna: "Merah",
+    harga: 23000000,
+    cc: 125,
+  },
+  {
+    id: 8,
+    merk: "Suzuki",
+    nama: "GSX-R150",
+    tahun: 2023,
+    warna: "Biru",
+    harga: 36000000,
+    cc: 150,
+  },
+  {
+    id: 9,
+    merk: "Kawasaki",
+    nama: "Ninja 250",
+    tahun: 2024,
+    warna: "Hijau",
+    harga: 66000000,
+    cc: 250,
+  },
+  {
+    id: 10,
+    merk: "Yamaha",
+    nama: "R15",
+    tahun: 2024,
+    warna: "Biru",
+    harga: 40000000,
+    cc: 155,
   },
 ];
 
